@@ -1,9 +1,9 @@
-import logo from './logo.svg';
+import Welcome from "./components/welcome";
 
 function App() {
   return (
-    <div className="text-2xl font-bold flex justify-center">
-        Hello
+    <div className="bg-[#0A111F] h-screen px-4">
+    <Welcome/>
     </div>
   );
 }
