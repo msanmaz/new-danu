@@ -4,6 +4,13 @@
 
 
 
+.gridbox{
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+}
+
+.spacing{
+  border-spacing: 0 5px;
+}
 
 body {
   margin: 0;

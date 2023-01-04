@@ -16,7 +16,7 @@ const Welcome = () => {
 
 const Button = () => {
   return (
-    <button class="bg-transparent flex flex-row hover:bg-[#0F182A] text-white text-sm font-semibold py-3 px-4 border border-[#34404B] hover:border-transparent rounded-full">
+    <button class="bg-transparent shadow-lg flex flex-row hover:bg-[#0F182A] text-white text-sm font-semibold py-3 px-4 border border-[#34404B] hover:border-[#34404B] rounded-full">
   <Report/> <span className='px-1'/> Generate Report
 </button>
   )
